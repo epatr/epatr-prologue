@@ -1,0 +1,24 @@
+{
+  "name": "epatr-prologue",
+  "version": "1.0.0",
+  "description": "Prologue by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files \"*.html\" \"*.css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epatr/epatr-prologue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epatr/epatr-prologue/issues"
+  },
+  "homepage": "https://github.com/epatr/epatr-prologue#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}
