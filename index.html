@@ -196,7 +196,7 @@
 
 							<p>I began my music journey studying classical guitar under a student of a student of Segovia at the Stetson Community School of Music. 
 								I performed in their guitar ensemble from 1996-1999. I now write my own music and perform regularly around the southeast region. 
-								I strongly believe in making my music accessible for free to everyone, so this is a selection of albums I've been a part of over the years. 
+								I strongly believe in making my music accessible for free to everyone, so feel free to download and enjoy! 
 							</p>
 
 							<div class="row">
@@ -278,15 +278,21 @@
 
 							<p>Please get in touch if you'd like to discuss working together. I'm always open to new opportunities! </p>
 
-							<form method="post" action="#">
+							<script>
+								var user = "eric";
+								var host = "epatr";
+								var action = user + "@" + host + ".com";
+								document.write("<form method=\"post\" action=\"https://formspree.io/" + action + "\">");
+							</script>
+
 								<div class="row">
 									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="email" name="_replyto" placeholder="Email" /></div>
 									<div class="12u$">
 										<textarea name="message" placeholder="Message"></textarea>
 									</div>
 									<div class="12u$">
-										<input type="submit" value="Send Message" />
+										<input type="submit" value="Send" />
 									</div>
 								</div>
 							</form>
