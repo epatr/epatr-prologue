@@ -2562,3 +2562,7 @@
 				}
 
 	}
+
+h2.alt span {
+	white-space: nowrap;
+}
